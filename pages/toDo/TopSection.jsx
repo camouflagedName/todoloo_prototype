@@ -152,10 +152,10 @@ const FormOne = ({ tripUpdate }) => {
                             >
                                 <option disabled>How many people?</option>
                                 <option value={1}>1 person</option>
-                                <option value={2}>2 person</option>
-                                <option value={3}>3 person</option>
-                                <option value={4}>4 person</option>
-                                <option value={5}>5 person</option>
+                                <option value={2}>2 people</option>
+                                <option value={3}>3 people</option>
+                                <option value={4}>4 people</option>
+                                <option value={5}>5 people</option>
                                 <option value={6}>6 or more people</option>
                             </select>
                         </div>
