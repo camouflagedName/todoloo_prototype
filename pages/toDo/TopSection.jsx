@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import styles from '@/styles/Home.module.css';
-import { Card } from "../components/Card";
+import { Card } from "../../components/Card";
 const cities = require('../../data/usaCities.json');
 
-export const TopSection = () => {
+const TopSection = () => {
     const [formNum, setFormNum] = useState(1);
     const [currentForm, setCurrentForm] = useState();
     const [tripData, setTripData] = useState({
@@ -53,6 +53,8 @@ export const TopSection = () => {
         </div>
     )
 }
+
+export default TopSection;
 
 
 const FormOne = ({ tripUpdate }) => {

@@ -1,6 +1,6 @@
 import React from "react";
 import { TopSection } from "./TopSection";
-import { Card } from "../components/Card";
+import { Card } from "../../components/Card";
 
 let sampleData = [
     {
@@ -21,7 +21,7 @@ let sampleData = [
 
 ];
 
-export const ToDoLayout = ({ children }) => {
+const ToDoLayout = ({ children }) => {
 
     return (
         <div className="flex flex-col">
@@ -40,6 +40,8 @@ export const ToDoLayout = ({ children }) => {
         </div>
     )
 }
+
+export default ToDoLayout;
 
 // this will contain 4 or 5 sections
 //

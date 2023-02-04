@@ -1,10 +1,10 @@
 import React from 'react'
 import * as NavigationMenu from '@radix-ui/react-navigation-menu'
-import { DialogPopup } from './dialogPopup.jsx'
+import { DialogPopup } from '../../components/dialogPopup.jsx'
 import * as Switch from '@radix-ui/react-switch'
 import styles from '@/styles/Home.module.css'
 
-export const Layout = ({ children, switchMode, color}) => {
+const Layout = ({ children, switchMode, color}) => {
 
     const defaultColors = {
         nav: "bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700",
@@ -49,3 +49,5 @@ export const Layout = ({ children, switchMode, color}) => {
         </div>
     )
 }
+
+export default Layout;
