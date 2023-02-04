@@ -1,5 +1,5 @@
 import React from "react";
-import { TopSection } from "./TopSection";
+import TopSection from "./TopSection";
 import { Card } from "../../components/Card";
 
 let sampleData = [
@@ -21,7 +21,7 @@ let sampleData = [
 
 ];
 
-const ToDoLayout = ({ children }) => {
+const ToDoLayout = () => {
 
     return (
         <div className="flex flex-col">
@@ -34,9 +34,6 @@ const ToDoLayout = ({ children }) => {
             <div className="basis-1/3">
                 <BottomSection />
             </div>
-
-
-
         </div>
     )
 }

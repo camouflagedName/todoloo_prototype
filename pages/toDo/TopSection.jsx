@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import styles from '@/styles/Home.module.css';
-import { Card } from "../../components/Card";
 const cities = require('../../data/usaCities.json');
 
 const TopSection = () => {

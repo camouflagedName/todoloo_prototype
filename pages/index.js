@@ -2,9 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-import { Layout } from './layout/layout'
 import { useState } from 'react'
-import { ToDoLayout } from './toDo/layout'
+import Layout from './layout/layout'
+import ToDoLayout from './toDo/layout'
 
 const inter = Inter({ subsets: ['latin'] })
 
