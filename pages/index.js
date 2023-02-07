@@ -33,14 +33,13 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>Todoloo Protoype</title>
+        <meta name="description" content="prototype for todoloo web app" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <UserData.Provider value={{ login: userData, setUserData }}>
-        <Head>
-          <title>Todoloo Protoype</title>
-          <meta name="description" content="prototype for todoloo web app" />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
-
         <Layout switchMode={switchMode} color={color}>
           <ToDoLayout />
         </Layout>
