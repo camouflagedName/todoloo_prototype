@@ -8,7 +8,7 @@ export const DialogPopup = () => {
 
         <Dialog.Root>
             <Dialog.Trigger asChild>
-                <button className="border-solid border-2 border-sky-500 rounded-lg px-4" size="large">
+                <button className="border-solid border-2 border-sky-500 rounded-lg px-4 ml-5 dark:text-white" size="large">
                     Login
                 </button>
             </Dialog.Trigger>

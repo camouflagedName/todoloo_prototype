@@ -49,7 +49,7 @@ const MiddleSection = ({ data }) => {
 
     const cardData = data.map((entry, index) => {
         return (
-            <div key={entry.title} className="w-full m-5">
+            <div key={entry.title} className="m-5">
                 <Card>
                     <Card.Body>
                         <Card.Header>{entry.title}</Card.Header>
@@ -62,7 +62,7 @@ const MiddleSection = ({ data }) => {
     });
 
     return (
-        <div className="flex lg:flex-row flex-col m-20">
+        <div className="flex lg:flex-row flex-col m-20 items-center justify-center">
             {cardData}
         </div>
     );
