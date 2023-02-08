@@ -31,7 +31,7 @@ const Layout = ({ children, switchMode, color }) => {
                                 <div className="w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
                             </label>
                         </div>
-                        <NavigationMenu.List className={`flex flex-wrap justify-center space-x-14 mx-auto ${defaultColors.text} text-lg font-medium align-middle`}>
+                        <NavigationMenu.List className={`flex flex-wrap justify-center space-x-14 mx-auto ${defaultColors.text} text-sm sm:text-lg font-medium align-middle`}>
                             <NavigationMenu.Item>
                                 <NavigationMenu.Link className={``} href="">To Do</NavigationMenu.Link>
                             </NavigationMenu.Item>
